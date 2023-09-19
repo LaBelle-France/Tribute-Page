@@ -1,0 +1,105 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <meta name="description" content="Alvin York tribute page" />
+    <title>Sgt. Alvin York</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+  
+<body>
+<main id="main">
+<!--Title box which extends to bottom-->
+<div id="title" class="title">
+<h1 id="title">Sgt Alvin York</h1>
+</div>
+<!--Photo element white background, red border-->
+  <div class="img">
+    <figure id="img-div">
+    <img id="image" src="https://orion-uploads.openroadmedia.com/md_ec4f0b62aba2-alvin-york-feature.jpg">
+    <figcaption id="img-caption">York (second from left) receives Medal of Honor</figcaption></figure>
+
+</div>
+<!--Information paragraph element on origial blue box-->
+<div id="tribute-info">
+<p id="tribute-info" class="tribute">Words here</p>
+<p>Read more about Alvin York on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Alvin_York">Wikipedia page.</a></p>
+</div>
+</div>
+</main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+main{
+  background-color: #333366;
+  color: white;  
+}
+.title {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+.title h1{
+  padding-top: 15px;
+  size: 150;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.img {
+  width: 95%;
+  height: 350px;
+  position: absolute;
+  top: 100;
+  left: 30;
+  background-color: white;
+  margin: 0 auto 0 auto;
+  border-radius: 5px;
+  border: red solid 25px;
+  border-width: 5px;
+}
+figure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tribute {
+ position: relative;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #333366;
+  background-color: white;
+}
+
+** end of undefined **
+
